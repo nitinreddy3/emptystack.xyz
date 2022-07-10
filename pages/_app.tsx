@@ -10,7 +10,7 @@ function MyApp ( { Component, pageProps }: AppProps )
     <ThemeProvider attribute="class" enableSystem={ false }>
       <Navigation />
       <Component { ...pageProps } />
-      {/* <Footer /> */ }
+      <Footer />
     </ThemeProvider>
   );
 }

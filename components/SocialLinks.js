@@ -2,7 +2,7 @@ import React from "react"
 
 const SocialLinks = ({ type }) => type === 'profile' ? <>
   <a
-    href="https://twitter.com/nitkr"
+    href="https://twitter.com/_nitinreddy3"
     className={"transition-colors hover:text-blue-500"}
     target="_blank"
     rel="noreferrer"
@@ -50,7 +50,7 @@ const SocialLinks = ({ type }) => type === 'profile' ? <>
     <svg stroke="currentColor" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" className="text-2xl" height="1em" width="1em"><path d="M42.164,17.126L30.874,5.835c-3.781-3.781-9.967-3.781-13.748,0L5.836,17.126	c-3.781,3.781-3.781,9.967,0,13.748l11.291,11.291c3.781,3.781,9.967,3.781,13.748,0l11.291-11.291	C45.945,27.093,45.945,20.907,42.164,17.126z M24,31c-3.866,0-7-3.134-7-7c0-3.866,3.134-7,7-7s7,3.134,7,7	C31,27.866,27.866,31,24,31z" /></svg>
   </a>
 </> : <> <a
-  href="https://twitter.com/nitkr"
+  href="https://twitter.com/_nitinreddy3"
   className={"transition-colors hover:text-blue-500"}
   target="_blank"
   rel="noreferrer"

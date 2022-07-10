@@ -13,6 +13,23 @@ const Navigation = () => {
             Nitin Reddy
           </a>
         </Link>
+        <div className="flex items-center">
+          {/* <Link href="/">
+            <a
+              className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white"}
+            >
+              About
+            </a>
+          </Link> */}
+          {/* <Link href="/Blog">
+            <a
+              className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white"}
+            >
+              Blog
+            </a>
+          </Link> */}
+        </div>
+
         <ThemeSwitch />
       </div>
     </div>

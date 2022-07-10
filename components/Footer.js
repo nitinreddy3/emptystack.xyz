@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link"
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-col justify-between lg:flex-row items-center">
           <div className="flex flex-wrap pt-2 sm:space-x-4 space-x-2 font-medium lg:pt-0">
             <a
-              href="#"
+              href="https://twitter.com/nitkr"
               className={"transition-colors hover:text-yellow-500"}
               target="_blank"
               rel="noreferrer"
@@ -16,7 +17,7 @@ const Footer = () => {
               Twitter
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/nitinreddy3"
               className={"transition-colors hover:text-yellow-500"}
               target="_blank"
               rel="noreferrer"
@@ -24,7 +25,7 @@ const Footer = () => {
               LinkedIn
             </a>
             <a
-              href="#"
+              href="https://github.com/nitinreddy3"
               className={"transition-colors hover:text-yellow-500"}
               target="_blank"
               rel="noreferrer"
@@ -32,7 +33,7 @@ const Footer = () => {
               GitHub
             </a>
             <a
-              href="#"
+              href="https://medium.com/@nitinreddy3"
               className={"transition-colors hover:text-yellow-500"}
               target="_blank"
               rel="noreferrer"
@@ -40,7 +41,7 @@ const Footer = () => {
               Medium
             </a>
             <a
-              href="#"
+              href="https://dev.to/nitinreddy3"
               className={"transition-colors hover:text-yellow-500"}
               target="_blank"
               rel="noreferrer"
@@ -48,7 +49,7 @@ const Footer = () => {
               DEV
             </a>
             <a
-              href="#"
+              href="https://hashnode.com/@nitinreddy3"
               className={"transition-colors hover:text-yellow-500"}
               target="_blank"
               rel="noreferrer"

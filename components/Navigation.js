@@ -14,22 +14,24 @@ const Navigation = () => {
           </a>
         </Link>
         <div className="flex items-center">
-          {/* <Link href="/">
-            <a
-              className={"font-medium tracking-wider transition-colors text-emerald-900 hover:text-sky-500 dark:text-white"}
-            >
-              About
-            </a>
-          </Link> */}
-          {/* <Link href="/Blog">
-            <a
-              className={"font-medium tracking-wider transition-colors text-emerald-900 hover:text-sky-500 dark:text-white"}
-            >
-              Blog
-            </a>
-          </Link> */}
-        </div>
+          <div className="md:flex lg:flex space-x-4 font-medium text-gray-800 hidden sm:block dark:text-white">
 
+            <Link href="/">
+              <a
+                className={"font-medium tracking-wider transition-colors text-emerald-900 hover:text-sky-500 dark:text-white"}
+              >
+                About
+              </a>
+            </Link>
+            <Link href="/blog">
+              <a
+                className={" font-medium tracking-wider transition-colors text-emerald-900 hover:text-sky-500 dark:text-white"}
+              >
+                Blog
+              </a>
+            </Link>
+          </div>
+        </div>
         <ThemeSwitch />
       </div>
     </div>

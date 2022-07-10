@@ -7,7 +7,7 @@ export default function Home ()
     <div className="space-y-14 lg:space-y-24">
       <Head>
         <title>Nitin Reddy</title>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/code.png" />
       </Head>
 
       <main className="max-w-4xl mx-auto mt-16 antialiased">

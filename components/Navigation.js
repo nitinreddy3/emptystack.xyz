@@ -8,7 +8,7 @@ const Navigation = () => {
       <div className="container px-4 mx-auto lg:max-w-4xl flex items-center justify-between">
         <Link href="/">
           <a
-            className={"font-medium tracking-wider transition-colors text-orange-900 hover:text-sky-500 uppercase dark:text-white"}
+            className={"font-medium tracking-wider transition-colors text-emerald-900 hover:text-sky-500 uppercase dark:text-white"}
           >
             Nitin Reddy
           </a>
@@ -16,14 +16,14 @@ const Navigation = () => {
         <div className="flex items-center">
           {/* <Link href="/">
             <a
-              className={"font-medium tracking-wider transition-colors text-orange-900 hover:text-sky-500 dark:text-white"}
+              className={"font-medium tracking-wider transition-colors text-emerald-900 hover:text-sky-500 dark:text-white"}
             >
               About
             </a>
           </Link> */}
           {/* <Link href="/Blog">
             <a
-              className={"font-medium tracking-wider transition-colors text-orange-900 hover:text-sky-500 dark:text-white"}
+              className={"font-medium tracking-wider transition-colors text-emerald-900 hover:text-sky-500 dark:text-white"}
             >
               Blog
             </a>

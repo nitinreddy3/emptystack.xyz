@@ -9,15 +9,18 @@ const About = () => {
     <div className="container px-4 mx-auto">
       <div className="lg:space-x-5 lg:flex lg:flex-row item-center lg:-mx-4 flex flex-col-reverse text-center lg:text-left">
         <div className="lg:px-4 lg:mt-12 ">
-          <h1 className="text-2xl font-bold text-gray-900 lg:text-5xl dark:text-white">
+          <h1 className="text-2xl font-bold text-orange-900 lg:text-5xl dark:text-white">
             Hey, I'm Nitin Reddy.
           </h1>
-          <div className="mt-6 text-gray-800 dark:text-white">
+          <div className="mt-6 text-orange-800 dark:text-white">
             <p className="mb-4">
-              JavaScript <a href="https://dev.to/nitinreddy3" target="_blank" ><img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Nitin Reddy's DEV Profile" height="30" width="30" style={{ display: 'inline-block' }} /></a> with a learning attitude for the latest technological trends. I believe coding is an art and it should be meaningful to everyone.
+              JavaScript <a href="https://dev.to/nitinreddy3"
+                className={"transition-colors hover:text-blue-500"}
+                target="_blank"
+                rel="noreferrer" ><svg style={{ display: 'inline-block' }} stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" class="text-2xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M120.12 208.29c-3.88-2.9-7.77-4.35-11.65-4.35H91.03v104.47h17.45c3.88 0 7.77-1.45 11.65-4.35 3.88-2.9 5.82-7.25 5.82-13.06v-69.65c-.01-5.8-1.96-10.16-5.83-13.06zM404.1 32H43.9C19.7 32 .06 51.59 0 75.8v360.4C.06 460.41 19.7 480 43.9 480h360.2c24.21 0 43.84-19.59 43.9-43.8V75.8c-.06-24.21-19.7-43.8-43.9-43.8zM154.2 291.19c0 18.81-11.61 47.31-48.36 47.25h-46.4V172.98h47.38c35.44 0 47.36 28.46 47.37 47.28l.01 70.93zm100.68-88.66H201.6v38.42h32.57v29.57H201.6v38.41h53.29v29.57h-62.18c-11.16.29-20.44-8.53-20.72-19.69V193.7c-.27-11.15 8.56-20.41 19.71-20.69h63.19l-.01 29.52zm103.64 115.29c-13.2 30.75-36.85 24.63-47.44 0l-38.53-144.8h32.57l29.71 113.72 29.57-113.72h32.58l-38.46 144.8z"></path></svg></a> with a learning attitude for the latest technological trends. I believe coding is an art and it should be meaningful to everyone.
             </p>
             <p className="mb-4">
-              I love exploring new technologies like Flutter and python. Currently working as a Senior Software Engineer at AppDirect.
+              I love exploring new technologies like Flutter and python. Currently working as a Senior Software Engineer at <a className={"transition-colors hover:text-blue-500"} style={{ textDecoration: "underline" }} href="https://www.appdirect.com/" target="_blank">AppDirect</a>.
             </p>
             <p className="mb-4">
               I'm a software engineer based in India. I'm a self-taught developer with a passion for learning and building things.
@@ -38,10 +41,10 @@ const About = () => {
             placeholder="blur"
           />
           <div className="flex justify-center mt-6">
-            <div className="flex md:flex lg:flex space-x-4 font-medium text-gray-800 sm:block dark:text-white">
+            <div className="flex md:flex lg:flex space-x-4 font-medium text-orange-800 sm:block dark:text-white">
               <a
                 href="https://twitter.com/nitkr"
-                className={"transition-colors hover:text-yellow-500"}
+                className={"transition-colors hover:text-blue-500"}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -49,7 +52,7 @@ const About = () => {
               </a>
               <a
                 href="https://www.linkedin.com/in/nitinreddy3"
-                className={"transition-colors hover:text-yellow-500"}
+                className={"transition-colors hover:text-blue-500"}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -57,7 +60,7 @@ const About = () => {
               </a>
               <a
                 href="https://github.com/nitinreddy3"
-                className={"transition-colors hover:text-yellow-500"}
+                className={"transition-colors hover:text-blue-500"}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -65,7 +68,7 @@ const About = () => {
               </a>
               <a
                 href="https://medium.com/@nitinreddy3"
-                className={"transition-colors hover:text-yellow-500"}
+                className={"transition-colors hover:text-blue-500"}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -73,7 +76,7 @@ const About = () => {
               </a>
               <a
                 href="https://dev.to/nitinreddy3"
-                className={"transition-colors hover:text-yellow-500"}
+                className={"transition-colors hover:text-blue-500"}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -81,11 +84,11 @@ const About = () => {
               </a>
               <a
                 href="https://hashnode.com/@nitinreddy3"
-                className={"transition-colors hover:text-yellow-500"}
+                className={"transition-colors hover:text-blue-500"}
                 target="_blank"
                 rel="noreferrer"
               >
-                <svg stroke="currentColor" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="24px" height="24px"><path d="M42.164,17.126L30.874,5.835c-3.781-3.781-9.967-3.781-13.748,0L5.836,17.126	c-3.781,3.781-3.781,9.967,0,13.748l11.291,11.291c3.781,3.781,9.967,3.781,13.748,0l11.291-11.291	C45.945,27.093,45.945,20.907,42.164,17.126z M24,31c-3.866,0-7-3.134-7-7c0-3.866,3.134-7,7-7s7,3.134,7,7	C31,27.866,27.866,31,24,31z" /></svg>
+                <svg stroke="currentColor" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="text-2xl" height="1em" width="1em"><path d="M42.164,17.126L30.874,5.835c-3.781-3.781-9.967-3.781-13.748,0L5.836,17.126	c-3.781,3.781-3.781,9.967,0,13.748l11.291,11.291c3.781,3.781,9.967,3.781,13.748,0l11.291-11.291	C45.945,27.093,45.945,20.907,42.164,17.126z M24,31c-3.866,0-7-3.134-7-7c0-3.866,3.134-7,7-7s7,3.134,7,7	C31,27.866,27.866,31,24,31z" /></svg>
               </a>
             </div>
           </div>

@@ -42,7 +42,7 @@ const About = () => {
           />
           <div className="flex justify-center mt-6">
             <div className="flex md:flex lg:flex space-x-4 font-medium text-orange-800 sm:block dark:text-white">
-              <SocialLinks />
+              <SocialLinks type="profile" />
             </div>
           </div>
         </div>

@@ -8,6 +8,8 @@ export default function Home ()
       <Head>
         <title>EmptyStack</title>
         <link rel="icon" href="/code.png" />
+        <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
+        <meta name="google" content="notranslate" key="notranslate" />
       </Head>
 
       <main className="max-w-4xl mx-auto mt-16 antialiased">

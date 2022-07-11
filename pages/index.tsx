@@ -6,7 +6,7 @@ export default function Home ()
   return (
     <div className="space-y-14 lg:space-y-24">
       <Head>
-        <title>Nitin Reddy</title>
+        <title>EmptyStack</title>
         <link rel="icon" href="/code.png" />
       </Head>
 

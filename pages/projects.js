@@ -12,6 +12,11 @@ const Blog = () => {
       name: 'React-NG SPA',
       url: 'https://github.com/nitinreddy3/react-ng-spa-app',
       imageUrl: 'https://19yw4b240vb03ws8qm25h366-wpengine.netdna-ssl.com/wp-content/uploads/React-vs.-Angular-Which-One-You-Should-Opt-For--1024x576.png'
+    },
+    {
+      name: 'Drag N Drop',
+      url: 'https://github.com/nitinreddy3/dnd-magic-box',
+      imageUrl: 'https://marvelapp.com/wp-content/uploads/2018/03/Group-2.png'
     }
   ]
 

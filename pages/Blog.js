@@ -14,7 +14,6 @@ const Blog = () => {
       setData(data);
     } catch (err) {
       throw new Error(err)
-      console.error(err);
     }
   }
 

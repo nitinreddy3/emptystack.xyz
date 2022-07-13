@@ -10,6 +10,7 @@
     "e2e:headless": "start-server-and-test start http://localhost:3000 cypress:headless"
   },
   "dependencies": {
+    "@dhaiwat10/react-link-preview": "^1.14.1",
     "moment": "^2.29.4",
     "next": "latest",
     "next-themes": "^0.2.0",

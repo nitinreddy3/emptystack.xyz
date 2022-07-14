@@ -9,7 +9,7 @@ export default function Home ()
         <meta name="description" content="SiteName: emptystack.dev, Author: Nitin Reddy, Emaild: reddynitin3@gmail.com" />
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=6" />
         <meta name="theme-color" content="#000" />
         <title>EmptyStack.dev is here to stay</title>
         <link rel="manifest" href="/manifest.json" />

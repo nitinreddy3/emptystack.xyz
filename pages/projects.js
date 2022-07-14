@@ -30,9 +30,9 @@ const Blog = () => {
           <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
             <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
               {
-                data.map(({ name, url, imageUrl }) => (<a className="card w-96 m-8 border-2 dark:text-white" href={url} target="_blank" key={url}>
+                data.map(({ name, url, imageUrl }) => (<a className="card w-96 m-8 border-2 dark:text-black text-emerald-900" href={url} target="_blank" key={url}>
                   <Image src={imageUrl} alt={name} width="300" height="150" />
-                  <p className=" dark:text-emerald-900 text-black">{name}</p>
+                  <p className=" dark:text-black text-emerald-900">{name}</p>
                 </a>))
               }
             </div>

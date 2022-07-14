@@ -22,6 +22,14 @@ function MobileNav({ open, setOpen }) {
             Blog
           </a>
         </Link>
+        <Link href="/projects">
+          <a
+            className={" font-medium tracking-wider transition-colors text-emerald-900 hover:text-sky-500 dark:text-white"}
+            onClick={() => setTimeout(() => { setOpen(!open) }, 100)}
+          >
+            Projects
+          </a>
+        </Link>
       </div>
     </div>
   )

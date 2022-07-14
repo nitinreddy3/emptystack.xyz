@@ -16,6 +16,7 @@ export default function Home ()
           href="https://emptystack.dev"
           key="canonical"
         />
+        <meta name="description " content="SiteName: emptystack.dev, Author: Nitin Reddy, Emaild: reddynitin3@gmail.com" />
       </Head>
 
       <main className="max-w-4xl mx-auto mt-16 antialiased">

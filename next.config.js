@@ -1,4 +1,5 @@
 // @ts-check
+const withPWA  = require("next-pwa");
 
 /** @type {import('next').NextConfig} */
 module.exports = {
@@ -9,5 +10,10 @@ module.exports = {
   i18n: {
     locales: ["en"],
     defaultLocale: "en",
+  },
+  pwa: {
+    dest: "public",
+    register: true,
+    skipWaiting: true,
   },
 }

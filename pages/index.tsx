@@ -7,10 +7,14 @@ export default function Home ()
     <div className="space-y-14 lg:space-y-24">
       <Head>
         <meta name="description" content="SiteName: emptystack.dev, Author: Nitin Reddy, Emaild: reddynitin3@gmail.com" />
+        <meta charSet="utf-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <meta name="theme-color" content="#000" />
         <title>EmptyStack.dev is here to stay</title>
+        <link rel="manifest" href="/manifest.json" />
         <link rel="icon" href="/code.png" />
-        <link rel="apple-touch-icon" href="/code.png"/>
-        <meta name="theme-color"/>
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
         <meta name="robots" content="all" />
         <meta name="googlebot" content="all" />

@@ -9,6 +9,8 @@ export default function Home ()
         <meta name="description" content="SiteName: emptystack.dev, Author: Nitin Reddy, Emaild: reddynitin3@gmail.com" />
         <title>EmptyStack.dev is here to stay</title>
         <link rel="icon" href="/code.png" />
+        <link rel="apple-touch-icon" href="/code.png"/>
+        <meta name="theme-color"/>
         <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
         <meta name="robots" content="all" />
         <meta name="googlebot" content="all" />

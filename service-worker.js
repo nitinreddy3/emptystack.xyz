@@ -169,13 +169,11 @@ setCatchHandler(({ event }) => {
     case 'document':
       // If using precached URLs:
       return matchPrecache('/fallback');
-      // return caches.match('/fallback')
-      break;
+
     case 'image':
       // If using precached URLs:
       return matchPrecache('/static/images/fallback.png');
-      // return caches.match('/static/images/fallback.png')
-      break;
+
     case 'font':
     // If using precached URLs:
     // return matchPrecache(FALLBACK_FONT_URL);

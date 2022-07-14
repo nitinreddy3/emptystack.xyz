@@ -1,5 +1,5 @@
 // @ts-check
-const withPWA  = require("next-pwa");
+const withPWA = require("next-pwa");
 
 /** @type {import('next').NextConfig} */
 module.exports = {
@@ -13,7 +13,6 @@ module.exports = {
   },
   pwa: {
     dest: "public",
-    register: true,
-    skipWaiting: true,
+    swSrc: 'service-worker.js',
   },
 }

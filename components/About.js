@@ -18,6 +18,7 @@ const About = () => {
             width={250}
             height={250}
             placeholder="blur"
+            layout="responsive"
           />
           <div className="flex justify-center mt-6">
             <div className="flex md:flex lg:flex space-x-4 font-medium text-emerald-800 sm:block dark:text-white">

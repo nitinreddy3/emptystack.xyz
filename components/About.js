@@ -10,7 +10,7 @@ const About = () => {
       <div className="lg:space-x-5 lg:flex lg:flex-row item-center lg:-mx-4 flex flex-col-reverse text-center lg:text-left">
 
         <div className="flex-shrink-0 lg:mt-12 lg:px-4 mb-10">
-          <Image
+          {/* <Image
             src={profile}
             alt="Profile"
             priority={true}
@@ -19,7 +19,8 @@ const About = () => {
             height={250}
             placeholder="blur"
             layout="fixed"
-          />
+          /> */}
+          <a href="https://app.daily.dev/nitinreddy3"><img src="https://api.daily.dev/devcards/e80b5cd7453c4402aa5c5320adaf04c4.png?r=h91" width="400" alt="Nitin Reddy's Dev Card" /></a>
           <div className="flex justify-center mt-6">
             <div className="flex md:flex lg:flex space-x-4 font-medium text-emerald-800 sm:block dark:text-white">
               <SocialLinks type="profile" />

@@ -29,7 +29,7 @@ const About = () => {
         </div>
         <div className="lg:px-4 lg:mt-12 ">
           <h1 className="text-2xl font-bold text-emerald-900 lg:text-5xl dark:text-white">
-            Hey, I'm Nitin Reddy.
+            Nitin Reddy...
           </h1>
           <div className="mt-6 text-emerald-800 dark:text-white">
             <p className="mb-4">

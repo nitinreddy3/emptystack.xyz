@@ -1,7 +1,7 @@
 import React from "react"
 import Image from "next/image"
 
-const Blog = () => {
+const Projects = () => {
   const data = [
     {
       name: 'URL Builder',
@@ -43,4 +43,4 @@ const Blog = () => {
   )
 }
 
-export default Blog;
+export default Projects;

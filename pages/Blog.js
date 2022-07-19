@@ -3,8 +3,6 @@ import Image from "next/image"
 import moment from "moment"
 
 const Blog = () => {
-
-
   const [data, setData] = useState([])
 
   const getPosts = async () => {

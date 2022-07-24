@@ -10,6 +10,7 @@
 - Tailwind css
 - Netlify
 - JavaScript
+- daily.dev CARD
 
 ### Todo
 - Make it a fantastic personal website 😆

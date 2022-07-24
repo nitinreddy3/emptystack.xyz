@@ -30,9 +30,9 @@ const Projects = () => {
           <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
             <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
               {
-                data.map(({ name, url, imageUrl }) => (<a className="card w-96 m-8 border-2 dark:text-black text-emerald-900" href={url} target="_blank" key={url}>
+                data.map(({ name, url, imageUrl }) => (<a className="card w-96 m-8 border-2 bg-emerald-900 dark:bg-white" href={url} target="_blank" key={url}>
                   <Image src={imageUrl} alt={name} width="300" height="150" />
-                  <p className=" dark:text-black text-emerald-900">{name}</p>
+                  <p className="text-center dark:text-black text-white">{name}</p>
                 </a>))
               }
             </div>

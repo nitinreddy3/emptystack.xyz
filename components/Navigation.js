@@ -22,6 +22,13 @@ function MobileNav({ open, setOpen }) {
             Blog
           </a>
         </Link>
+        {/* <Link href="/skills">
+              <a
+                className={" font-medium tracking-wider transition-colors text-emerald-900 hover:text-sky-500 dark:text-white"}
+              >
+                Skills
+              </a>
+            </Link> */}
         <Link href="/projects">
           <a
             className={" font-medium tracking-wider transition-colors text-emerald-900 hover:text-sky-500 dark:text-white"}
@@ -72,6 +79,13 @@ const Navigation = () => {
                 Blog
               </a>
             </Link>
+            {/* <Link href="/skills">
+              <a
+                className={" font-medium tracking-wider transition-colors text-emerald-900 hover:text-sky-500 dark:text-white"}
+              >
+                Skills
+              </a>
+            </Link> */}
             <Link href="/projects">
               <a
                 className={" font-medium tracking-wider transition-colors text-emerald-900 hover:text-sky-500 dark:text-white"}

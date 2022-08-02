@@ -14,3 +14,4 @@
 
 ### Todo
 - Make it a fantastic personal website 😆
+- Add the unit tests for fun

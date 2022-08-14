@@ -42,6 +42,7 @@ const Skills = () => {
             <Pie
               data={data}
               style={{ width: 400, height: 400 }}
+              className="text-emerald-900 lg:text-5xl dark:text-white"
             />
           </div>
         </div>

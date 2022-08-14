@@ -39,12 +39,9 @@ const Skills = () => {
             Skills
           </h1>
           <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-
             <Pie
               data={data}
-              // width={400}
-              // height={400}
-              style={{ width: '30vw', height: '30vh' }}
+              style={{ width: 400, height: 400 }}
             />
           </div>
         </div>

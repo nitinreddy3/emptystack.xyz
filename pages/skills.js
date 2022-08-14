@@ -10,7 +10,7 @@ const Skills = () => {
           </h1>
           <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
             <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-
+              Coming soon...💣🚣
             </div>
           </div>
         </div>

@@ -19,7 +19,8 @@
     "react-chartjs-2": "^4.3.1",
     "react-dom": "18.1.0",
     "react-spring": "^9.5.0",
-    "sharp": "^0.30.7"
+    "sharp": "^0.30.7",
+    "web3": "^1.7.5"
   },
   "devDependencies": {
     "@types/node": "17.0.35",

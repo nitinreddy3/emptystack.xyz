@@ -16,7 +16,7 @@ export default function Home() {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=6" />
         <meta name="theme-color" content="#000" />
-        <title>EmptyStack.dev is here to stay</title>
+        <title>Empty stack dev is here to stay</title>
         <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
         <meta name="robots" content="all" />
         <meta name="googlebot" content="all" />

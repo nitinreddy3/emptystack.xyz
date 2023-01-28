@@ -1,9 +1,14 @@
 import Head from 'next/head';
 import About from "../components/About";
+import { NextSeo } from 'next-seo';
 
-export default function Home ()
-{
-  return (
+export default function Home() {
+  return (<>
+
+    <NextSeo
+      title="Empty stack dev - Nitin Reddy"
+      description="This is Nitin Reddy - a empty stack developer"
+    />
     <div className="space-y-14 lg:space-y-24">
       <Head>
         <meta name="description" content="SiteName: emptystack.dev, Author: Nitin Reddy, Emaild: reddynitin3@gmail.com" />
@@ -29,5 +34,6 @@ export default function Home ()
         <About />
       </main>
     </div>
+  </>
   );
 }

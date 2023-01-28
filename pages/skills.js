@@ -1,6 +1,7 @@
 import React from "react"
 import 'chart.js/auto';
 import { Pie } from 'react-chartjs-2';
+import { NextSeo } from 'next-seo';
 
 const data = {
   labels: [
@@ -32,22 +33,28 @@ const data = {
 
 const Skills = () => {
   return (
-    <div className="container px-4 mx-auto lg:max-w-4xl flex items-center justify-center">
-      <div className="lg:space-x-12 lg:flex lg:flex-row item-center lg:-mx-4 flex flex-col-reverse text-center lg:text-left">
-        <div className="lg:mt-12">
-          <h1 className="text-center text-2xl font-bold text-emerald-900 lg:text-5xl dark:text-white">
-            Skills
-          </h1>
-          <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-            <Pie
-              data={data}
-              style={{ width: 400, height: 400 }}
-              className="text-emerald-900 lg:text-5xl dark:text-white"
-            />
+    <>
+      <NextSeo
+        title="Empty stack dev skillset"
+        description="This is the empty stack dev's skillsets"
+      />
+      <div className="container px-4 mx-auto lg:max-w-4xl flex items-center justify-center">
+        <div className="lg:space-x-12 lg:flex lg:flex-row item-center lg:-mx-4 flex flex-col-reverse text-center lg:text-left">
+          <div className="lg:mt-12">
+            <h1 className="text-center text-2xl font-bold text-emerald-900 lg:text-5xl dark:text-white">
+              Skills
+            </h1>
+            <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
+              <Pie
+                data={data}
+                style={{ width: 400, height: 400 }}
+                className="text-emerald-900 lg:text-5xl dark:text-white"
+              />
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

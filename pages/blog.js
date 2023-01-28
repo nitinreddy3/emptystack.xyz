@@ -21,7 +21,7 @@ const Blog = () => {
   }, []);
 
   const showPosts = () => data?.map(({ title, url, published_timestamp, cover_image, tag_list, id }) =>
-    <a className="card w-96 m-8 border-2 bg-emerald-900 dark:bg-white" href={url} target="_blank" key={id}>
+    <a className="card w-96 m-8 border-2 bg-emerald-900 dark:bg-white" href={url} target="_blank" key={id} rel="noreferrer">
       <h2 className="flex mb-2 dark:text-black text-white"><i>{moment(published_timestamp).format('ll')}</i></h2>
       < Image src={cover_image} alt={title} width="300" height="150" />
       <p className="dark:text-black text-white">{title}</p>

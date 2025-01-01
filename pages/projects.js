@@ -1,6 +1,6 @@
-import React from "react"
-import Image from "next/image"
 import { NextSeo } from 'next-seo';
+import Image from "next/image";
+import React from "react";
 
 const Projects = () => {
   const data = [
@@ -24,8 +24,8 @@ const Projects = () => {
   return (
     <>
       <NextSeo
-        title="Empty stack dev projects"
-        description="This is the empty stack dev's project collection"
+        title="Coderman dev projects"
+        description="This is the coderman dev's project collection"
       />
       <div className="container px-4 mx-auto lg:max-w-4xl flex items-center justify-between">
         <div className="lg:space-x-12 lg:flex lg:flex-row item-center lg:-mx-4 flex flex-col-reverse text-center lg:text-left">

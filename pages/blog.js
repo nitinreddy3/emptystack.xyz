@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react"
-import Image from "next/image"
-import moment from "moment"
+import moment from "moment";
 import { NextSeo } from 'next-seo';
+import Image from "next/image";
+import React, { useEffect, useState } from "react";
 
 const Blog = () => {
   const [data, setData] = useState([])
@@ -35,8 +35,8 @@ const Blog = () => {
   return (
     <>
       <NextSeo
-        title="Empty stack dev blog posts"
-        description="This is the empty stack dev blog posts section"
+        title="Coderman dev blog posts"
+        description="This is the coderman dev blog posts section"
       />
       <div className="container px-4 mx-auto lg:max-w-4xl flex items-center justify-between">
         <div className="lg:space-x-12 lg:flex lg:flex-row item-center lg:-mx-4 flex flex-col-reverse text-center lg:text-left">

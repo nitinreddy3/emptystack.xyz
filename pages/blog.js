@@ -1,6 +1,7 @@
 import moment from "moment";
 import { NextSeo } from 'next-seo';
 import Image from "next/image";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 const Blog = () => {
@@ -21,7 +22,7 @@ const Blog = () => {
   }, []);
 
   const showPosts = () => data?.map(({ title, url, published_timestamp, cover_image, tag_list, id }) =>
-    <a className="card w-96 m-8 border-2 bg-emerald-900 dark:bg-white" href={url} target="_blank" key={id} rel="noreferrer">
+    <Link legacyBehaviorclassName="card w-96 m-8 border-2 bg-emerald-900 dark:bg-white" href={url} target="_blank" key={id} rel="noreferrer">
       <h2 className="flex mb-2 dark:text-black text-white"><i>{moment(published_timestamp).format('ll')}</i></h2>
       < Image src={cover_image} alt={title} width="300" height="150" />
       <p className="dark:text-black text-white">{title}</p>
@@ -30,7 +31,7 @@ const Blog = () => {
           tag_list.map(tag => <span key={`${id}-${tag}`} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{`#${tag}`}</span>)}
 
       </div>
-    </a>);
+    </Link>);
 
   return (
     <>

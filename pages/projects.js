@@ -1,5 +1,6 @@
 import { NextSeo } from 'next-seo';
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Projects = () => {
@@ -35,10 +36,10 @@ const Projects = () => {
             </h1>
             <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
               {
-                data.map(({ name, url, imageUrl }) => (<a className="card w-96 m-8 border-2 bg-emerald-900 dark:bg-white" href={url} target="_blank" key={url} rel="noreferrer">
+                data.map(({ name, url, imageUrl }) => (<Link legacyBehaviorclassName="card w-96 m-8 border-2 bg-emerald-900 dark:bg-white" href={url} target="_blank" key={url} rel="noreferrer">
                   <Image src={imageUrl} alt={name} width="300" height="150" />
                   <p className="text-center dark:text-black text-white">{name}</p>
-                </a>))
+                </Link>))
               }
             </div>
           </div>

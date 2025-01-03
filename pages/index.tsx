@@ -4,7 +4,6 @@ import About from "../components/About";
 
 export default function Home() {
   return (<>
-
     <NextSeo
       title="Coderman dev - Nitin Reddy"
       description="This is Nitin Reddy - a coderman developer"

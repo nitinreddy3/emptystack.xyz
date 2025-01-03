@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from "react"
-import Image from "next/image"
-import moment from "moment"
+import moment from "moment";
 import { NextSeo } from 'next-seo';
+import Image from "next/image";
+import Link from "next/link";
+import React, { useEffect, useState } from "react";
 
 const Blog = () => {
   const [data, setData] = useState([])
@@ -21,7 +22,7 @@ const Blog = () => {
   }, []);
 
   const showPosts = () => data?.map(({ title, url, published_timestamp, cover_image, tag_list, id }) =>
-    <a className="card w-96 m-8 border-2 bg-emerald-900 dark:bg-white" href={url} target="_blank" key={id} rel="noreferrer">
+    <Link legacyBehaviorclassName="card w-96 m-8 border-2 bg-emerald-900 dark:bg-white" href={url} target="_blank" key={id} rel="noreferrer">
       <h2 className="flex mb-2 dark:text-black text-white"><i>{moment(published_timestamp).format('ll')}</i></h2>
       < Image src={cover_image} alt={title} width="300" height="150" />
       <p className="dark:text-black text-white">{title}</p>
@@ -30,13 +31,13 @@ const Blog = () => {
           tag_list.map(tag => <span key={`${id}-${tag}`} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{`#${tag}`}</span>)}
 
       </div>
-    </a>);
+    </Link>);
 
   return (
     <>
       <NextSeo
-        title="Empty stack dev blog posts"
-        description="This is the empty stack dev blog posts section"
+        title="Coderman dev blog posts"
+        description="This is the coderman dev blog posts section"
       />
       <div className="container px-4 mx-auto lg:max-w-4xl flex items-center justify-between">
         <div className="lg:space-x-12 lg:flex lg:flex-row item-center lg:-mx-4 flex flex-col-reverse text-center lg:text-left">

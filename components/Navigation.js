@@ -1,5 +1,5 @@
 import Link from "next/link"
-import React, { useState } from "react"
+import { useState } from "react"
 import ThemeSwitch from "../components/ThemeSwitch"
 
 function MobileNav({ open, setOpen }) {
@@ -7,38 +7,38 @@ function MobileNav({ open, setOpen }) {
     <div className={`absolute top-0 left-0 h-screen w-48 bg-white dark:bg-black transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-md `}>
       <div className="flex flex-col items-center">
         <Link href="/">
-          <a
+          <Link href="/"
             className={"font-medium tracking-wider transition-colors text-emerald-900 hover:text-sky-500 dark:text-white"}
             onClick={() => setTimeout(() => { setOpen(!open) }, 100)}
           >
             About
-          </a>
+          </Link>
         </Link>
         <Link href="/blog">
-          <a
+          <Link href="/blog"
             className={" font-medium tracking-wider transition-colors text-emerald-900 hover:text-sky-500 dark:text-white"}
             onClick={() => setTimeout(() => { setOpen(!open) }, 100)}
           >
             Blog
-          </a>
+          </Link>
         </Link>
         <Link href="/skills">
-          <a
+          <Link href="/skills"
             className={" font-medium tracking-wider transition-colors text-emerald-900 hover:text-sky-500 dark:text-white"}
           >
             Skills
-          </a>
-        </Link>
+          </Link>
+        </Link >
         <Link href="/projects">
-          <a
+          <Link href="/projects"
             className={" font-medium tracking-wider transition-colors text-emerald-900 hover:text-sky-500 dark:text-white"}
             onClick={() => setTimeout(() => { setOpen(!open) }, 100)}
           >
             Projects
-          </a>
-        </Link>
-      </div>
-    </div>
+          </Link>
+        </Link >
+      </div >
+    </div >
   )
 }
 
@@ -57,47 +57,47 @@ const Navigation = () => {
           <span className={`h-1 w-full bg-emerald-900 dark:bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-3.5" : ""}`} />
         </div>
         <Link href="/">
-          <a
+          <Link href="/"
             className={"font-medium tracking-wider transition-colors text-emerald-900 hover:text-sky-500 uppercase dark:text-white"}
           >
             Nitin Reddy
-          </a>
+          </Link>
         </Link>
         <div className="flex items-center">
           <div className="navbar md:flex lg:flex space-x-4 font-medium text-gray-800  sm:block dark:text-white">
             <Link href="/">
-              <a
+              <Link href="/"
                 className={"font-medium tracking-wider transition-colors text-emerald-900 hover:text-sky-500 dark:text-white"}
               >
                 About
-              </a>
+              </Link>
             </Link>
             <Link href="/blog">
-              <a
+              <Link href="/blog"
                 className={" font-medium tracking-wider transition-colors text-emerald-900 hover:text-sky-500 dark:text-white"}
               >
                 Blog
-              </a>
+              </Link>
             </Link>
             <Link href="/skills">
-              <a
+              <Link href="/skills"
                 className={" font-medium tracking-wider transition-colors text-emerald-900 hover:text-sky-500 dark:text-white"}
               >
                 Skills
-              </a>
+              </Link>
             </Link>
             <Link href="/projects">
-              <a
+              <Link href="/projects"
                 className={" font-medium tracking-wider transition-colors text-emerald-900 hover:text-sky-500 dark:text-white"}
               >
                 Projects
-              </a>
-            </Link>
-          </div>
+              </Link>
+            </Link >
+          </div >
           <ThemeSwitch />
-        </div>
-      </div>
-    </div>
+        </div >
+      </div >
+    </div >
   )
 }
 

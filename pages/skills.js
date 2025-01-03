@@ -1,7 +1,7 @@
-import React from "react"
 import 'chart.js/auto';
-import { Pie } from 'react-chartjs-2';
 import { NextSeo } from 'next-seo';
+import React from "react";
+import { Pie } from 'react-chartjs-2';
 
 const data = {
   labels: [
@@ -35,8 +35,8 @@ const Skills = () => {
   return (
     <>
       <NextSeo
-        title="Empty stack dev skillset"
-        description="This is the empty stack dev's skillsets"
+        title="Coderman dev skillset"
+        description="This is the coderman dev's skillsets"
       />
       <div className="container px-4 mx-auto lg:max-w-4xl flex items-center justify-center">
         <div className="lg:space-x-12 lg:flex lg:flex-row item-center lg:-mx-4 flex flex-col-reverse text-center lg:text-left">
